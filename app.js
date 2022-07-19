@@ -61,7 +61,7 @@ const server = http.createServer(async (req, res) => {
       } else {
         console.log("Room already present, adding new player to the room");
         controller.createPlayer(playerName, function (playerId) {
-          res.end(JSON.stringify({'playerId': playerId}))
+          res.end(JSON.stringify({'roomId': ROOM.id, 'playerId': playerId}))
         })
       }
     } catch (e) {
