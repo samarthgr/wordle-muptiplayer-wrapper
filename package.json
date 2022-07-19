@@ -1,0 +1,17 @@
+{
+  "name": "wordlewrapper",
+  "version": "1.0.0",
+  "description": "Wrapper for wordle multiplayer game",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "author": "samarthgr",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^5.3.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
